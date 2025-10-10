@@ -9,43 +9,30 @@
         <string>/usr/bin/hidutil</string>
         <string>property</string>
         <string>--set</string>
-        <string>{
-          "UserKeyMapping":[
-            {
-              "HIDKeyboardModifierMappingSrc": 0x700000039,
-              "HIDKeyboardModifierMappingDst": 0x7000000E1
-            },
-            {
-              "HIDKeyboardModifierMappingSrc": 0x7000000E5,
-              "HIDKeyboardModifierMappingDst": 0x700000028
-            },
-            {
-              "HIDKeyboardModifierMappingSrc": 0x700000028,
-              "HIDKeyboardModifierMappingDst": 0x70000002B
-            },
+        <string>{"UserKeyMapping":[
             {
               "HIDKeyboardModifierMappingSrc": 0x70000003A,
-              "HIDKeyboardModifierMappingDst": 0x700000068
-            },
-            {
-              "HIDKeyboardModifierMappingSrc": 0x70000003B,
-              "HIDKeyboardModifierMappingDst": 0x700000069
-            },
-            {
-              "HIDKeyboardModifierMappingSrc": 0x70000003C,
               "HIDKeyboardModifierMappingDst": 0x70000006A
             },
             {
-              "HIDKeyboardModifierMappingSrc": 0x70000003D,
+              "HIDKeyboardModifierMappingSrc": 0x70000003B,
               "HIDKeyboardModifierMappingDst": 0x70000006B
             },
             {
-              "HIDKeyboardModifierMappingSrc": 0x70000003E,
+              "HIDKeyboardModifierMappingSrc": 0x70000003C,
               "HIDKeyboardModifierMappingDst": 0x70000006C
             },
             {
-              "HIDKeyboardModifierMappingSrc": 0x70000003F,
+              "HIDKeyboardModifierMappingSrc": 0x70000003D,
               "HIDKeyboardModifierMappingDst": 0x70000006D
+            },
+            {
+              "HIDKeyboardModifierMappingSrc": 0x70000003E,
+              "HIDKeyboardModifierMappingDst": 0x70000006E
+            },
+            {
+              "HIDKeyboardModifierMappingSrc": 0x70000003F,
+              "HIDKeyboardModifierMappingDst": 0x700000068
             },
             {
               "HIDKeyboardModifierMappingSrc": 0x700000040,
@@ -70,9 +57,20 @@
             {
               "HIDKeyboardModifierMappingSrc": 0x700000045,
               "HIDKeyboardModifierMappingDst": 0xC000000E9
+            },
+            {
+              "HIDKeyboardModifierMappingSrc": 0x700000039,
+              "HIDKeyboardModifierMappingDst": 0x7000000E1
+            },
+            {
+              "HIDKeyboardModifierMappingSrc": 0x7000000E5,
+              "HIDKeyboardModifierMappingDst": 0x700000028
+            },
+            {
+              "HIDKeyboardModifierMappingSrc": 0x700000028,
+              "HIDKeyboardModifierMappingDst": 0x70000002B
             }
-          ]
-        }</string>
+        ]}</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
