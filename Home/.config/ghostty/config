@@ -1,0 +1,11 @@
+
+font-family = Ubuntu Mono
+font-size = 22
+
+background-opacity = 1
+
+theme = Nord
+
+window-decoration = none
+window-padding-x = 20
+window-padding-y = 20

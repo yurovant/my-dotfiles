@@ -1,0 +1,309 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # #################################################################
+  # Homebrew related
+  # rest of Homebrew related aliases are in .bashrc file
+  # #################################################################
+  - trigger: "bin/"
+    replace: "brew install "
+
+  - trigger: "bun/"
+    replace: "brew uninstall "
+
+  - trigger: "bdp/"
+    replace: "brew deps "
+
+  # #################################################################
+  # Management related (Valtech)
+  # #################################################################
+  - trigger: "oair"
+    replace: "https://auth.openair.com/login_sso"
+
+  - trigger: "vlt"
+    replace: "Valtech"
+
+  - trigger: "mm/"
+    replace: "anton.yurovskykh@valtech.com"
+
+  - trigger: "mn/"
+    replace: "YUROVSKYKH Anton"
+
+  - trigger: "bst/"
+    replace: "--\nAll best,\nAnton Y."
+
+  # #################################################################
+  # Teams / chats related (Valtech)
+  # #################################################################
+  - trigger: "ali/"
+    replace: "Alina "
+
+  - trigger: "arp/"
+    replace: "Arpana "
+
+  - trigger: "chaf/"
+    replace: "Chafiha "
+
+  - trigger: "roh/"
+    replace: "Rohit "
+
+  - trigger: "sof/"
+    replace: "Sofia "
+
+  - trigger: "pingme/"
+    replace: "Hey, please ping me when you're available."
+
+  - trigger: "fixed/"
+    replace: "__ defect ticket and the associated story is assigned to QA engineer. It will be testable after the next deployment."
+
+  # #################################################################
+  # Development related (Valtech)
+  # #################################################################
+  - trigger: "ft1d"
+    replace: "ft1/develop"
+
+  # #################################################################
+  # Development related
+  # #################################################################
+  - trigger: "conn/"
+    replace: "connection "
+
+  - trigger: "wrn"
+    replace: "console.warn("
+
+  - trigger: "vjs"
+    replace: "Vue.js 3"
+
+  # #################################################################
+  # LLM prompts
+  # #################################################################
+  - trigger: "brnc"
+    replace: "Create a clean branch name from the given string; remove special characters and using hyphens for spacing — "
+
+  - trigger: "clr"
+    replace: "Check if this prompt is clear for an LLM to work on it: "
+
+  - trigger: "crt"
+    replace: "Is the following phrase lexically and grammatically correct in English: "
+
+  - trigger: "vld"
+    replace: "Is the following code valid and correct in terms of HTML/CSS/JS standards: "
+
+  - trigger: "rfn"
+    replace: "Here is the setup script of my Vue.js 3 component. Refine it and tell me if it could be improved:"
+
+  # #################################################################
+  # Shorthand words and phrases without a slash
+  # #################################################################
+  - trigger: "abt"
+    replace: "about "
+
+  - trigger: "afaik"
+    replace: "as far as I know "
+
+  - trigger: "brb"
+    replace: "be right back "
+
+  - trigger: "btw"
+    replace: "by the way "
+
+  - trigger: "cdnt"
+    replace: "couldn't "
+
+  - trigger: "chk"
+    replace: "check "
+
+  - trigger: "cnt"
+    replace: "can't "
+
+  - trigger: "crct"
+    replace: "correct "
+
+  - trigger: "ddnt"
+    replace: "didn't "
+
+  - trigger: "dnt"
+    replace: "don't "
+
+  - trigger: "dsnt"
+    replace: "doesn't "
+
+  - trigger: "dunno"
+    replace: "I don't know "
+
+  - trigger: "fdb"
+    replace: "feedback "
+
+  - trigger: "gd"
+    replace: "good "
+
+  - trigger: "gonna"
+    replace: "going to "
+
+  - trigger: "gotta"
+    replace: "got to "
+
+  - trigger: "hsnt"
+    replace: "hasn't "
+
+  - trigger: "hvnt"
+    replace: "haven't "
+
+  - trigger: "isnt"
+    replace: "isn't "
+
+  - trigger: "pls"
+    replace: "please "
+
+  - trigger: "sdnt"
+    replace: "shouldn't "
+
+  - trigger: "shd"
+    replace: "should "
+
+  - trigger: "thru"
+    replace: "through "
+
+  - trigger: "tks"
+    replace: "thanks "
+
+  - trigger: "tkt"
+    replace: "ticket "
+
+  - trigger: "tts"
+    replace: "that's "
+
+  - trigger: "wanna"
+    replace: "want to "
+
+  - trigger: "wnt"
+    replace: "won't "
+
+  - trigger: "wsnt"
+    replace: "wasn't "
+
+  - trigger: "tomo"
+    replace: "tomorrow "
+
+  - trigger: "ytd"
+    replace: "yesterday "
+
+  - trigger: "afkf"
+    replace: "AFK for a "
+
+  - trigger: "afkd"
+    replace: "AFK for a delivery "
+
+  - trigger: "afkl"
+    replace: "AFK for lunch "
+
+  - trigger: "lms"
+    replace: "Let me see. "
+
+  - trigger: "lmc"
+    replace: "Let me check. "
+
+  - trigger: "npr"
+    replace: "No problem! "
+
+  - trigger: "qq"
+    replace: "Quick question — "
+
+  - trigger: "wdym"
+    replace: "What do you mean? "
+
+  # #################################################################
+  # Shorthand words and phrases with slash (/)
+  # #################################################################
+  - trigger: "bc/"
+    replace: "because "
+
+  - trigger: "bg/"
+    replace: "background "
+
+  - trigger: "bk/"
+    replace: "back "
+
+  - trigger: "bt/"
+    replace: "between "
+
+  - trigger: "def/"
+    replace: "definitely "
+
+  - trigger: "dt/"
+    replace: "desktop "
+
+  - trigger: "mb/"
+    replace: "maybe "
+
+  - trigger: "mbl/"
+    replace: "mobile "
+
+  - trigger: "ic/"
+    replace: "I see "
+
+  - trigger: "imo/"
+    replace: "in my opinion "
+
+  - trigger: "lts/"
+    replace: "let's "
+
+  - trigger: "reg/"
+    replace: "regarding "
+
+  - trigger: "rn/"
+    replace: "right now "
+
+  - trigger: "td/"
+    replace: "today "
+
+  - trigger: "tho/"
+    replace: "though "
+
+  - trigger: "tgt/"
+    replace: "together "
+
+  - trigger: "ur/"
+    replace: "you are "
+
+  - trigger: "urw/"
+    replace: "you're welcome!"
+
+  - trigger: "w/"
+    replace: "with "
+
+  - trigger: "wo/"
+    replace: "without "
+
+  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/

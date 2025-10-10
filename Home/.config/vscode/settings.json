@@ -1,0 +1,83 @@
+{
+  "[html]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.formatOnSave": true
+  },
+
+  "chat.commandCenter.enabled": false,
+
+  "cSpell.userWords": ["Arpana", "Rohit", "Valtech"],
+
+  "diffEditor.wordWrap": "on",
+
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Ubuntu Mono', 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+
+  "explorer.confirmDelete": false,
+
+  "extensions.ignoreRecommendations": true,
+
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "search.exclude": {
+    "**/build/": true,
+    "**/node_modules/": true,
+    "**/qa/": true,
+    "**/serialization/": true,
+    "**vs helix templates": true
+  },
+  "search.seedOnFocus": true,
+
+  "telemetry.editStats.enabled": false,
+  "telemetry.feedback.enabled": false,
+  "telemetry.telemetryLevel": "off",
+
+  "terminal.explorerKind": "external",
+  "terminal.integrated.sendKeybindingsToShell": true,
+
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#fff",
+    "editorBracketHighlight.foreground2": "#fff",
+    "editorBracketHighlight.foreground3": "#fff",
+    "editorBracketHighlight.foreground4": "#fff",
+    "editorBracketHighlight.foreground5": "#fff",
+    "editorBracketHighlight.foreground6": "#fff",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#f00"
+  },
+
+  "window.commandCenter": false,
+
+  "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "Nord",
+  "workbench.layoutControl.enabled": false,
+  "workbench.preferredHighContrastLightColorTheme": "Nord",
+  "workbench.sideBar.location": "left"
+}

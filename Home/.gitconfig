@@ -1,0 +1,6 @@
+[user]
+	name = Anton Yurovskykh (Valtech)
+	email = anton.yurovskykh@valtech.com
+
+[core]
+	excludesfile = /Users/anton.yurovskykh/.gitignore_global

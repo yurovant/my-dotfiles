@@ -1,0 +1,259 @@
+! --- DEVELOPMENT ---
+
+! Fractal related
+localhost##.Navigation-panel.Navigation-panel--main:style(width: 364px !important;)
+
+
+! https://www.builder.io
+www.builder.io###top-banner
+www.builder.io##.header-container
+www.builder.io##.blog-article-container + *
+
+
+! https://css-tricks.com
+css-tricks.com##.article-sponsor
+css-tricks.com##.articles-and-sidebar:style(display:block !important;)
+
+
+! https://frontendmasters.com
+frontendmasters.com##learning-path-quiz
+frontendmasters.com##.learn-more.learn-with-frontend-masters
+frontendmasters.com##.comments
+frontendmasters.com##.contributions
+frontendmasters.com##.featured-image
+frontendmasters.com##.fem-conditional-message
+frontendmasters.com##.site-header
+frontendmasters.com##.site-footer
+frontendmasters.com##.single-featured-image
+
+
+! https://dou.ua
+dou.ua##.max-header
+dou.ua##.mini-header
+dou.ua##.topinfo
+dou.ua##.b-adv-events
+dou.ua##.b-right-side
+dou.ua##.b-sticky-right-side
+dou.ua##.b-dou-vacancies
+dou.ua##.g-right-shadowed:style(background-image: none !important; padding-right: 0 !important; width: 100% !important;)
+
+! https://habr.com
+habr.com##.tm-articles-list__after-article
+habr.com##.tm-base-layout__header
+habr.com##.tm-company-widgets > section.tm-block_spacing-bottom.tm-block[type='facebook']
+habr.com##.tm-company-widgets > section.tm-block_spacing-bottom.tm-block[type='banner']
+habr.com##.tm-header
+habr.com##.tm-sexy-sidebar
+habr.com##.tm-block_spacing-bottom
+habr.com##.tm-placeholder-inset
+habr.com##.tm-placeholder-promo
+habr.com##[hubs]
+
+! https://old.reddit.com
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.commentsignupbar__container
+old.reddit.com##.side
+old.reddit.com##.footer-parent
+old.reddit.com##.content:style(width: 100% !important;)
+
+! https://apple.stackexchange.com/
+apple.stackexchange.com##.js-announcement-banner
+apple.stackexchange.com##.js-consent-banner
+apple.stackexchange.com##.js-dismissable-hero
+apple.stackexchange.com##.js-freemium-cta
+apple.stackexchange.com##.js-pinned-left-sidebar
+apple.stackexchange.com##.js-spinner
+apple.stackexchange.com##.js-top-bar
+apple.stackexchange.com##.s-sidebarwidget
+apple.stackexchange.com##.otFloatingRoundedCorner
+
+apple.stackexchange.com###onetrust-consent-sdk
+apple.stackexchange.com###sidebar
+apple.stackexchange.com###mainbar:style(width: 100% !important;)
+
+! https://stackoverflow.com
+stackoverflow.com##.js-announcement-banner
+stackoverflow.com##.js-consent-banner
+stackoverflow.com##.js-dismissable-hero
+stackoverflow.com##.js-freemium-cta
+stackoverflow.com##.js-pinned-left-sidebar
+stackoverflow.com##.js-spinner
+stackoverflow.com##.js-top-bar
+stackoverflow.com##.otFloatingRoundedCorner
+
+stackoverflow.com###mainbar:style(width: 100% !important;)
+stackoverflow.com###content:style(border: none !important;)
+stackoverflow.com###sidebar
+stackoverflow.com###footer
+stackoverflow.com###onetrust-consent-sdk
+
+! https://superuser.com
+superuser.com##.js-announcement-banner
+superuser.com##.js-consent-banner
+superuser.com##.js-dismissable-hero
+superuser.com##.js-freemium-cta
+superuser.com##.js-pinned-left-sidebar
+superuser.com##.js-spinner
+superuser.com##.js-top-bar
+
+superuser.com###onetrust-consent-sdk
+superuser.com###sidebar
+superuser.com###mainbar:style(width: 100% !important;)
+
+! https://english.stackexchange.com
+english.stackexchange.com##.js-announcement-banner
+english.stackexchange.com##.js-consent-banner
+english.stackexchange.com##.js-dismissable-hero
+english.stackexchange.com##.js-freemium-cta
+english.stackexchange.com##.js-pinned-left-sidebar
+english.stackexchange.com##.js-spinner
+english.stackexchange.com##.js-top-bar
+
+english.stackexchange.com###onetrust-consent-sdk
+english.stackexchange.com###sidebar
+english.stackexchange.com###mainbar:style(width: 100% !important;)
+
+! https://emacs.stackexchange.com
+emacs.stackexchange.com##.js-announcement-banner
+emacs.stackexchange.com##.js-consent-banner
+emacs.stackexchange.com##.js-dismissable-hero
+emacs.stackexchange.com##.js-freemium-cta
+emacs.stackexchange.com##.js-pinned-left-sidebar
+emacs.stackexchange.com##.js-spinner
+emacs.stackexchange.com##.js-top-bar
+
+emacs.stackexchange.com###onetrust-consent-sdk
+emacs.stackexchange.com###sidebar
+emacs.stackexchange.com###mainbar:style(width: 100% !important;)
+
+! https://vi.stackexchange.com
+vi.stackexchange.com##.js-announcement-banner
+vi.stackexchange.com##.js-consent-banner
+vi.stackexchange.com##.js-dismissable-hero
+vi.stackexchange.com##.js-freemium-cta
+vi.stackexchange.com##.js-pinned-left-sidebar
+vi.stackexchange.com##.js-spinner
+vi.stackexchange.com##.js-top-bar
+
+vi.stackexchange.com###onetrust-consent-sdk
+vi.stackexchange.com###sidebar
+vi.stackexchange.com###mainbar:style(width: 100% !important;)
+
+! https://unix.stackexchange.com
+unix.stackexchange.com##.js-announcement-banner
+unix.stackexchange.com##.js-consent-banner
+unix.stackexchange.com##.js-dismissable-hero
+unix.stackexchange.com##.js-freemium-cta
+unix.stackexchange.com##.js-pinned-left-sidebar
+unix.stackexchange.com##.js-spinner
+unix.stackexchange.com##.js-top-bar
+
+unix.stackexchange.com###onetrust-consent-sdk
+unix.stackexchange.com###sidebar
+unix.stackexchange.com###mainbar:style(width: 100% !important;)
+
+! https://vuejs.org
+vuejs.org##.aside.spsr-container
+vuejs.org###bb-banner
+vuejs.org##.banner
+vuejs.org##.banner-vuejsconf.banner
+vuejs.org###sidebar-sponsors-special
+vuejs.org###sidebar-sponsors-platinum-left
+vuejs.org###sidebar-sponsors-platinum-right
+vuejs.org##.sponsor-container
+vuejs.org##.nav-bar:style(top: 0 !important;)
+
+! https://ultimatecourses.com
+ultimatecourses.com##.uc-timer
+ultimatecourses.com##.uc-shoutout__item
+ultimatecourses.com##.uc-box
+ultimatecourses.com##.uc-ebook-download--post
+
+! https://www.smashingmagazine.com
+www.smashingmagazine.com##.book-grid
+www.smashingmagazine.com##.c-garfield__nl
+www.smashingmagazine.com##.cookie-banner
+www.smashingmagazine.com##.feature-panel
+www.smashingmagazine.com##.sponsors__external
+www.smashingmagazine.com##.sponsors__native
+www.smashingmagazine.com##.partners
+
+
+jobs.dou.ua##.mini-header
+
+2ality.com###sidebar
+
+developer.mozilla.org##.mdn-cta-container
+
+confluence.e-loreal.com##.aui-message
+
+jira.e-loreal.com###announcement-banner
+
+pinia.esm.dev##.sponsors-top.sponsors
+
+refactoring.guru##.content-secondary
+
+cssreference.io##.is-fortyfour
+
+tabletki.ua##.h-100.col__com.col
+
+tympanus.net##.ct-sidebar
+
+! --- END DEVELOPMENT ---
+
+! --- ENGLISH ---
+
+! https://www.merriam-webster.com
+www.merriam-webster.com##.right-rail
+www.merriam-webster.com##.games-footer-container
+
+! https://www.vocabulary.com
+www.vocabulary.com##.col-2
+
+! --- END ENGLISH ---
+
+! --- MISC. ---
+
+! https://valtech.app.openair.com
+valtech.app.openair.com##.dialogBlock .span5:style(width: 100% !important; margin-right: 14px;)
+valtech.app.openair.com##.dialogBlock.dialogBlock1Column:style(width: 50%; left: 50% !important; transform: translateX(-50%) !important;)
+valtech.app.openair.com##.dialogBlock textarea:style(max-width: none !important; width: 100% !important; min-height: 400px !important; font-size: 24px !important;)
+
+
+! http://pornolab.net
+pornolab.net###logo
+pornolab.net###sidebar1
+pornolab.net###page_footer
+pornolab.net##div > .plk
+
+
+! https://rutracker.org
+rutracker.org##.bn-idx
+rutracker.org###bn-top-right
+rutracker.org###idx-sidebar2 img
+rutracker.org##.ext-links
+rutracker.org##.w100.tCenter > div
+
+
+! www.twirpx.com
+www.twirpx.com##.share-buttons
+
+
+! www.youtube.com
+www.youtube.com###secondary
+www.youtube.com##.ytd-watch-next-secondary-results-renderer
+
+
+! Google promo shit
+www.google.com##promo-throttler + div
+
+
+! GSM Arena
+www.gsmarena.com###subHeader2
+www.gsmarena.com##.module-news-l.module
+
+
+! Wikipedia
+uk.m.wikipedia.org##.banner-container
+
+! --- END MISC. ---
