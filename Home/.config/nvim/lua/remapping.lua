@@ -40,13 +40,13 @@ vim.keymap.set('v', ',', 'j', {
 })
 -- to exit this mode you need to type `v` again
 -- OR press <Esc>
--- OR press `jj`
-vim.keymap.set('v', 'jj', '<Esc>', {
+-- OR press `kj`
+vim.keymap.set('v', 'kj', '<Esc>', {
     noremap = true
 })
 
 -- INSERT mode
--- combination of rare letter sequence 'jj' for English
-vim.keymap.set('i', 'jj', '<Esc>', {
+-- combination of rare letter sequence 'kj' for English
+vim.keymap.set('i', 'kj', '<Esc>', {
     noremap = true
 })
