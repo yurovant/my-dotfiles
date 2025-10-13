@@ -57,6 +57,10 @@ caps_lock
 left_shift
 
 
+right_option
+right_control
+
+
 right_shift
 return_or_enter
 
