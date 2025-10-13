@@ -1,0 +1,5 @@
+require("colors.nord_custom").setup()
+require('remapping')
+require('options')
+require('plugins')
+require('lsp')

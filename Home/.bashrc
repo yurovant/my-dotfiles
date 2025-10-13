@@ -57,8 +57,8 @@ alias u='cd ..'
 # ==================
 
 # Vim
-alias v='vim'
-alias sv='sudo vim'
+alias v='nvim'
+alias sv='sudo nvim'
 
 # Joshuto
 alias jo='cd ~ && joshuto'
