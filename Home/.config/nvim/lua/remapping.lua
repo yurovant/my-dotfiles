@@ -12,6 +12,26 @@ for _, key in ipairs(disabled_keys) do
 end
 
 -- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-- NORMAL and VISUAL modes
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-- "M" to jump to the beginning of the line (original "0" behavior)
+vim.keymap.set({"n", "v"}, "M", "0", {
+    noremap = true
+})
+
+-- "L" for jump to the end of the line (original "$" behavior)
+vim.keymap.set({"n", "v"}, "L", "$", {
+    noremap = true
+})
+
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-- VISUAL and INSERT modes
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+vim.keymap.set({"v", "i"}, "kj", "<Esc>", {
+    noremap = true
+})
+
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 -- NORMAL mode
 -- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 -- left
@@ -34,16 +54,6 @@ vim.keymap.set("n", "j", ",", {
     noremap = true
 })
 
--- "9" to jump to the beginning of the line (original "0" behavior)
-vim.keymap.set("n", "9", "0", {
-    noremap = true
-})
-
--- "0" for jump to the end of the line (original "$" behavior)
-vim.keymap.set("n", "0", "$", {
-    noremap = true
-})
-
 -- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 -- VISUAL mode
 -- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,18 +67,13 @@ vim.keymap.set("v", ",", "j", {
     noremap = true
 })
 
--- to exit this mode you need to type `v` again
--- OR press <Esc>
--- OR press `kj`
-vim.keymap.set("v", "kj", "<Esc>", {
-    noremap = true
-})
+-- Issues to fix:
 
--- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
--- INSERT mode
--- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-- 1. You're missing the j → , remap in Visual mode
+-- You have it in Normal mode but not Visual mode
 
--- combination of rare letter sequence "kj" for English
-vim.keymap.set("i", "kj", "<Esc>", {
-    noremap = true
-})
+-- 2. What happens to original M and L?
+-- In default Vim:
+
+-- M = Move to middle of screen
+-- L = Move to lowest line on screen (with H for highest)
