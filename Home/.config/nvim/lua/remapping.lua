@@ -11,42 +11,64 @@ for _, key in ipairs(disabled_keys) do
     })
 end
 
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 -- NORMAL mode
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 -- left
-vim.keymap.set('n', 'm', 'h', {
-    noremap = true
-})
--- down
-vim.keymap.set('n', ',', 'j', {
-    noremap = true
-})
--- `h` for marks instead of `m`
-vim.keymap.set('n', 'h', 'm', {
-    noremap = true
-})
--- `j` for reverse t/T/f/F instead of `,`
-vim.keymap.set('n', 'j', ',', {
+vim.keymap.set("n", "m", "h", {
     noremap = true
 })
 
--- VISUAL mode
--- left
-vim.keymap.set('v', 'm', 'h', {
-    noremap = true
-})
 -- down
-vim.keymap.set('v', ',', 'j', {
+vim.keymap.set("n", ",", "j", {
     noremap = true
 })
+
+-- "h" for marks instead of (original "m" behavior)
+vim.keymap.set("n", "h", "m", {
+    noremap = true
+})
+
+-- "j" for reverse t/T/f/F instead of (original "," behavior)
+vim.keymap.set("n", "j", ",", {
+    noremap = true
+})
+
+-- "9" to jump to the beginning of the line (original "0" behavior)
+vim.keymap.set("n", "9", "0", {
+    noremap = true
+})
+
+-- "0" for jump to the end of the line (original "$" behavior)
+vim.keymap.set("n", "0", "$", {
+    noremap = true
+})
+
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-- VISUAL mode
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+-- left
+vim.keymap.set("v", "m", "h", {
+    noremap = true
+})
+
+-- down
+vim.keymap.set("v", ",", "j", {
+    noremap = true
+})
+
 -- to exit this mode you need to type `v` again
 -- OR press <Esc>
 -- OR press `kj`
-vim.keymap.set('v', 'kj', '<Esc>', {
+vim.keymap.set("v", "kj", "<Esc>", {
     noremap = true
 })
 
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 -- INSERT mode
--- combination of rare letter sequence 'kj' for English
-vim.keymap.set('i', 'kj', '<Esc>', {
+-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+-- combination of rare letter sequence "kj" for English
+vim.keymap.set("i", "kj", "<Esc>", {
     noremap = true
 })

@@ -43,7 +43,7 @@ opt.incsearch = true
 -- opt.termguicolors = true
 -- always show sign column (wut?)
 opt.signcolumn = "yes"
-opt.colorcolumn = "91"
+opt.colorcolumn = "100"
 opt.showmatch = true
 opt.matchtime = 2
 -- opt.updatetime = 50
