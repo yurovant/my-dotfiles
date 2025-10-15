@@ -180,6 +180,9 @@ matches:
   - trigger: "tts"
     replace: "that's "
 
+  - trigger: "smt"
+    replace: "something "
+
   - trigger: "wanna"
     replace: "want to "
 

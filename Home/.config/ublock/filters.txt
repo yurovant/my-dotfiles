@@ -4,6 +4,12 @@
 localhost##.Navigation-panel.Navigation-panel--main:style(width: 364px !important;)
 
 
+! https://hn.algolia.com
+hn.algolia.com##.Story:style(margin: 60px 0 !important;)
+hn.algolia.com##.Story_title span:style(color: #52a447 !important; font-weight: 800 !important; text-transform: uppercase !important;)
+hn.algolia.com##.Footer
+
+
 ! https://www.builder.io
 www.builder.io###top-banner
 www.builder.io##.header-container
