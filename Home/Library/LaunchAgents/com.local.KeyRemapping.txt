@@ -1,32 +1,34 @@
 hidutil key remapping generator for MacOS
 
+F13 is free!!
+
 
 From key
 To key
 
 
 f1
-f15
+f14
 
 
 f2
-f16
+f15
 
 
 f3
-f17
+f16
 
 
 f4
-f18
+f17
 
 
 f5
-f19
+f18
 
 
 f6
-f13
+f19
 
 
 f7

@@ -12,27 +12,27 @@
         <string>{"UserKeyMapping":[
             {
               "HIDKeyboardModifierMappingSrc": 0x70000003A,
-              "HIDKeyboardModifierMappingDst": 0x70000006A
+              "HIDKeyboardModifierMappingDst": 0x700000069
             },
             {
               "HIDKeyboardModifierMappingSrc": 0x70000003B,
-              "HIDKeyboardModifierMappingDst": 0x70000006B
+              "HIDKeyboardModifierMappingDst": 0x70000006A
             },
             {
               "HIDKeyboardModifierMappingSrc": 0x70000003C,
-              "HIDKeyboardModifierMappingDst": 0x70000006C
+              "HIDKeyboardModifierMappingDst": 0x70000006B
             },
             {
               "HIDKeyboardModifierMappingSrc": 0x70000003D,
-              "HIDKeyboardModifierMappingDst": 0x70000006D
+              "HIDKeyboardModifierMappingDst": 0x70000006C
             },
             {
               "HIDKeyboardModifierMappingSrc": 0x70000003E,
-              "HIDKeyboardModifierMappingDst": 0x70000006E
+              "HIDKeyboardModifierMappingDst": 0x70000006D
             },
             {
               "HIDKeyboardModifierMappingSrc": 0x70000003F,
-              "HIDKeyboardModifierMappingDst": 0x700000068
+              "HIDKeyboardModifierMappingDst": 0x70000006E
             },
             {
               "HIDKeyboardModifierMappingSrc": 0x700000040,
