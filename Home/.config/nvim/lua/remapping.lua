@@ -1,7 +1,7 @@
 -- Disable arrow keys to force use of Vim motions
 local disabled_keys = {"<Up>", "<Down>", "<Left>", "<Right>"}
 
--- Normal, Insert, Visual, Command-line modes
+-- Normal, Insert, Visual and Command-line modes
 local modes = {"n", "i", "v", "c"}
 
 for _, key in ipairs(disabled_keys) do
