@@ -221,9 +221,9 @@ www.vocabulary.com##.col-2
 ! --- MISC. ---
 
 ! https://valtech.app.openair.com
-valtech.app.openair.com##.dialogBlock .span5:style(width: 100% !important; margin-right: 14px;)
-valtech.app.openair.com##.dialogBlock.dialogBlock1Column:style(width: 50%; left: 50% !important; transform: translateX(-50%) !important;)
-valtech.app.openair.com##.dialogBlock textarea:style(max-width: none !important; width: 100% !important; min-height: 400px !important; font-size: 24px !important;)
+valtech.app.netsuitesuiteprojectspro.com##.oa3_ui .dialogBlock .span5:style(width: 100% !important; margin-right: 14px;)
+valtech.app.netsuitesuiteprojectspro.com##.oa3_ui .dialogBlock.dialogBlock1Column:style(width: 50%; left: 50% !important; transform: translateX(-50%) !important;)
+valtech.app.netsuitesuiteprojectspro.com##.oa3_ui .dialogBlock textarea:style(max-width: none !important; width: 100% !important; min-height: 400px !important; font-size: 24px !important;)
 
 
 ! http://pornolab.net
