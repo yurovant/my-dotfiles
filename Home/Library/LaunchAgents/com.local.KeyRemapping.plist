@@ -4,6 +4,7 @@
 <dict>
     <key>Label</key>
     <string>com.local.KeyRemapping</string>
+
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/hidutil</string>
@@ -72,6 +73,7 @@
             }
         ]}</string>
     </array>
+
     <key>RunAtLoad</key>
     <true/>
 </dict>
