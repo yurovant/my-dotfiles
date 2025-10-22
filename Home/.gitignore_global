@@ -1,5 +1,8 @@
 *~
 
+# Fractal config
+/.config/configstore
+
 
 # System (macOS)
 .DS_Store
