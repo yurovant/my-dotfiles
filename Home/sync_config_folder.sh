@@ -2,13 +2,13 @@
 
 # --- Configuration ---
 CONFIG_SOURCE_DIR="$HOME/.config/"
-CONFIG_TARGET_DIR="$HOME/Desktop/M__projects/my-dotfiles/Home/.config"
+CONFIG_TARGET_DIR="$HOME/Downloads/my-projects/my-dotfiles/Home/.config"
 
 BASHRC_FILE="$HOME/.bashrc"
-BASHRC_TARGET_DIR="$HOME/Desktop/M__projects/my-dotfiles/Home/"
+BASHRC_TARGET_DIR="$HOME/Downloads/my-projects/my-dotfiles/Home/"
 
 BASH_PROFILE_FILE="$HOME/.bash_profile"
-BASH_PROFILE_FILE_TARGET_DIR="$HOME/Desktop/M__projects/my-dotfiles/Home/"
+BASH_PROFILE_FILE_TARGET_DIR="$HOME/Downloads/my-projects/my-dotfiles/Home/"
 
 # --- Setup ---
 echo "Ensuring target directory exists: $CONFIG_TARGET_DIR..."
